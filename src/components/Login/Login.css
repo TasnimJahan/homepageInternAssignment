@@ -1,0 +1,85 @@
+.loginPage,.registration{
+    margin: 0 auto;
+    border: 1px solid rgb(117, 115, 115);
+    border-radius:10px!important;
+    width: 35%!important;
+    padding:3%;
+    background-color: #ffeb3b;
+}
+.loginPage input, .registration input{
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid black;
+    background:none;
+}
+
+.btn{
+    margin-top: 5%!important;
+    width:100%
+}
+p{
+    text-align: center;
+    margin-top:3%!important;
+}
+ .line {
+    overflow: hidden;
+    text-align: center;
+    margin-top:1%!important;
+  }
+  
+  .line:before,
+  .line:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 10%;
+  }
+  
+  .line:before {
+    right: 0.5em;
+  }
+  h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+  button.btn.btn-primary.googleBtn,button.btn.btn-primary.fbBtn {
+    margin-left: 35%;
+    width: 30%;
+    margin-top: 2%!important;
+    margin-bottom: 2%;
+  }
+  
+  input#ifNewUser {
+    height: 0;
+    border: none;
+    display:none;
+  }
+  #registrationPage{
+    display:none;
+  }
+  a{
+    cursor: pointer;
+  }
+  span{
+    color: #007bff;
+  }
+  input[type="submit"] {
+    border: none;
+}
+#unMatchPassword,#inValidMail,#inValidPassword{
+  display:none;
+}
+@media (max-width: 688px){
+  .loginPage, .registration {
+    width: 80%!important;
+    margin-top:10%
+}
+button.btn.btn-primary.googleBtn, button.btn.btn-primary.fbBtn {
+  margin-left: 11%;
+  width: 78%;
+}
+}
